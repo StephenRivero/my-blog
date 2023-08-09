@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        //Include bootstrap CSS CDN here
+        {{-- Include bootstrap CSS CDN here --}}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
         <style>
@@ -24,6 +24,6 @@
     @yield('content')
 
     </body>
-    //Include bootstrap JS CDN here
+    {{-- Include bootstrap JS CDN here --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </html>
