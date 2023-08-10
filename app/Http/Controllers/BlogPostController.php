@@ -52,7 +52,11 @@ class BlogPostController extends Controller
      */
     public function show(BlogPost $blogPost)
     {
-        return $blogPost; //returns the fetched posts
+        // return $blogPost; //returns the fetched posts
+
+        return view('blog.show', [
+            'post' => $blogPost,
+        ]); //returns the view with the post
     }
 
     /**
